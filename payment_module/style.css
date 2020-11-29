@@ -1,0 +1,52 @@
+header {
+    text-align: center;
+}
+
+h1 {
+    background-color: lightgrey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#body {
+    display: flex;
+    flex-direction: row;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 8px;
+    white-space: nowrap;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    margin: 0;
+}
+
+#main > nav input[type="submit"] {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.selected {
+    color: blue;
+}
+
+#records {
+    width: 1200px;
+    display: block;
+    overflow: auto;
+}
